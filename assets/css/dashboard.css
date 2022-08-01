@@ -1,0 +1,48 @@
+body{
+    /* background-color: rgb(245, 239, 239); */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.online{
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 74.7em;
+    top: 52px;
+}
+.first{
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+}
+.eye{
+    position: absolute;
+    top: 7em;
+    right: 40em;
+}
+.firs{
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+}
+.eye2{
+    position: absolute;
+    top: 10em;
+    right: 40em;
+}
+.fir{
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+}
+.eye3{
+    position: absolute;
+    top: 13.3em;
+    right: 40em;
+}
+.factor{
+    font-size: 14px;
+}
