@@ -1,3 +1,4 @@
+/* css for the login page starts */
 *{
     margin:0;
     padding:0;
@@ -6,15 +7,14 @@
 }
 body{
     background: rgba(182, 202, 214, 0.185);
-    background: rgb(230,229,229);
+    /* background: rgb(230,229,229); */
+    background: linear-gradient(6deg, rgb(220, 216, 216), white )
     
 }
 .hero{
     width:100vw;
-    height:110vh;
-   
+    height:110vh; 
 }
-
 
 #head{
     position:absolute;
@@ -29,54 +29,73 @@ body{
 .icon-container{
     width: 130px;
     position: absolute;
-    top: 100px ;
-    left: 60px;
-    background-color: #fff;
+    top: 80px ;
+    left: 520px;
     height: 140px;
     font-size: 0.9rem;
 
 }
-.icon-container2{
+.icon-container p{
+    font-size: 12px;
+    font-weight: 600;
+}
+.icon-container3{
     position: absolute;
-    bottom: 100px;
-    left: 40%;
-    width: 130px;
-    background-color: #fff;
-    height: 140px;
+    bottom: 180px;
+    left: 37%;
+    width: 150px;
+    height: 50px;
     font-size: 0.9rem;
 
+}
+.icon-container3{
+    font-size: 12px;
+    font-weight: 600; 
 }
 .socio-links a{
     text-decoration: none;
 }
-.icon-container3{
+.icon-container2{
     position: absolute;
-    bottom: 150px;
+    bottom: 310px;
     left: 70px;
-    width: 140px;
-    box-shadow: 1px 1px 2px gray inset, -1px -1px 2px gray inset;
-    background-color: #fff;
-    height: 70px;
+    width: 100px;
+    height: 90px;
     font-size: 0.9rem;
 
 }
+.icon-container2 p{
+    font-size: 12px;
+    font-weight: 600;
+}
 .flower{
     position: absolute;
-    bottom: 0px;
+    bottom: -20px;
     width: 70%;
     z-index: -1;
-    background: linear-gradient(6deg, rgba(230,229,229,1) 29%,rgba(182, 202, 214, 0.185) 100%);
+    /* background: linear-gradient(6deg, rgba(252, 251, 251, 0.861),rgba(202, 205, 207, 0.902) ); */
     background-position:right;
-    left: 0px; 
+    left: 40px; 
 }
 .or{
     position: relative;
 }
 .or-text{
     position: absolute;
-    background-color: #fff;
     width: 30px;
     top: -14px;
     left: 45%;
 
+}
+/* css for the login page ends */
+
+/* css for the signup page starts */
+
+.img-fluid{
+    width: 410px;
+}
+
+/* error page */
+.my_bg-gradient{
+        background-image: linear-gradient(30deg, #0dcaf0, #dee2e6);
 }
